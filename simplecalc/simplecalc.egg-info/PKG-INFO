@@ -1,0 +1,56 @@
+Metadata-Version: 2.4
+Name: simplecalc
+Version: 0.1
+Summary: Uma calculadora simples com classe em Python
+Home-page: https://github.com/seuusuario/simplecalc
+Author: carlos
+Author-email: seu@email.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-python
+Dynamic: summary
+
+# SimpleCalc 🧮
+
+**SimpleCalc** é um pacote Python simples que oferece operações matemáticas básicas por meio de funções e classes. Ideal para quem está começando com desenvolvimento em Python ou precisa de uma calculadora leve para projetos maiores.
+
+## Funcionalidades
+
+- Adição
+- Subtração
+- Multiplicação
+- Divisão (com tratamento de divisão por zero)
+
+## Instalação
+
+Você pode instalar localmente com:
+
+```bash
+pip install .
+
+Ou, se estiver empacotado e publicado:
+pip install simplecalc
+
+Exemplo de uso
+
+from simplecalc import add, divide
+
+print(add(10, 5))       # Saída: 15
+print(divide(10, 2))    # Saída: 5.0
+
+ou usando a classe:
+from simplecalc.calculadora import Calculadora
+
+calc = Calculadora()
+print(calc.somar(3, 7))  # Saída: 10
+
+Autor: Carlos
